@@ -1,0 +1,6 @@
+{
+  "name": "NeuroDrive: Driver Drowsiness & Micro-Sleep Prediction",
+  "description": "Real-time driver micro-sleep and drowsiness prediction dashboard using facial landmark telemetry and Bauhaus visual principles.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

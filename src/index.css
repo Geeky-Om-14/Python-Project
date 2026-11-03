@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bauhaus-cream: #F2EBDD;
+    --bauhaus-red: #D7263D;
+    --bauhaus-yellow: #F4B400;
+    --bauhaus-blue: #1E4CA1;
+    --bauhaus-black: #111111;
+  }
+
+  body {
+    background-color: #F2EBDD;
+    color: #111111;
+    font-family: 'Josefin Sans', 'Futura', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-display {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.font-geometric {
+  font-family: 'Futura', 'Josefin Sans', sans-serif;
+}
+
+.font-mono-telemetry {
+  font-family: 'Space Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Bauhaus Constructivist Aesthetic Containers */
+.bauhaus-box {
+  background-color: #ffffff;
+  border: 2px solid #111111;
+  box-shadow: 4px 4px 0px #111111;
+}
+
+.bauhaus-box-cream {
+  background-color: #F2EBDD;
+  border: 2px solid #111111;
+  box-shadow: 4px 4px 0px #111111;
+}
+
+.bauhaus-box-flat {
+  background-color: #ffffff;
+  border: 2px solid #111111;
+}
+
+.bauhaus-btn {
+  border: 2px solid #111111;
+  box-shadow: 3px 3px 0px #111111;
+  font-family: 'Josefin Sans', 'Futura', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: transform 0.12s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.12s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bauhaus-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0px #111111;
+}
+
+.bauhaus-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #111111;
+}
+
+/* Custom Bauhaus Grid Background Pattern */
+.bg-bauhaus-grid {
+  background-image: radial-gradient(#111111 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AVISODRIVE: Driver Drowsiness & Micro-Sleep Prediction</title>
+    <meta name="description" content="AVISODRIVE: Real-time driver micro-sleep and drowsiness prediction dashboard using facial landmark telemetry and Bauhaus visual principles." />
+    <meta property="og:title" content="AVISODRIVE: Driver Drowsiness & Micro-Sleep Prediction" />
+    <meta property="og:description" content="AVISODRIVE: Real-time driver micro-sleep and drowsiness prediction dashboard using facial landmark telemetry and Bauhaus visual principles." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Bauhaus Typography: Archivo Black, Josefin Sans (Futura geometric lineage), Space Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+
+    <!-- Optional MediaPipe Face Mesh CDN for full 468 3D landmarks -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-[#F2EBDD] text-[#111111] antialiased selection:bg-[#D7263D] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
